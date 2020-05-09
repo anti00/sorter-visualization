@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    position: sticky;
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+#logo{
+    flex: 1;
+    background-color: darkcyan;
+}
+#logo img{
+    width: 10%;
+}
+
+.menu{
+    flex: 1;
+}
+
+.menu_items{
+    list-style-type: none;
+
+}
+
+.items{
+    flex: 1;
+}
+
+.items a{
+    color: wheat;
+    display: block;
+}
